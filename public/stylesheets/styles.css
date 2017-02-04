@@ -180,55 +180,55 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
-/* ======= Promo Section ======= */
-.promo {
+/* ======= Home Section ======= */
+.home {
   background: #17baef;
   color: #fff;
   padding-top: 150px;
 }
-.promo .title {
+.home .title {
   font-size: 98px;
   color: #074f66;
   margin-top: 0;
 }
-.promo .title .highlight {
+.home .title .highlight {
   color: #eebf3f;
 }
-.promo .intro {
+.home .intro {
   font-size: 28px;
   max-width: 680px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.promo .btns .btn {
+.home .btns .btn {
   margin-right: 15px;
   font-size: 18px;
   padding: 8px 30px;
 }
-.promo .meta {
+.home .meta {
   margin-top: 120px;
   margin-bottom: 30px;
   color: #0a7396;
 }
-.promo .meta li {
+.home .meta li {
   margin-right: 15px;
 }
-.promo .meta a {
+.home .meta a {
   color: #0a7396;
 }
-.promo .meta a:hover {
+.home .meta a:hover {
   color: #074f66;
 }
-.promo .social-media {
+.home .social-media {
   background: #0c86ae;
   padding: 10px 0;
   margin: 0 auto;
   margin-top: 50px;
 }
-.promo .social-media li {
+.home .social-media li {
   margin-top: 15px;
 }
-.promo .social-media li.facebook-like {
+.home .social-media li.facebook-like {
   margin-top: 0;
   position: relative;
   top: -5px;
@@ -269,42 +269,42 @@ pre code {
   color: #074f66;
   font-size: 18px;
 }
-/* ======= Features Section ======= */
-.features {
+/* ======= Services Section ======= */
+.services {
   padding: 80px 0;
   background: #17baef;
   color: #fff;
 }
-.features .title {
+.services .title {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.features a {
+.services a {
   color: #074f66;
 }
-.features a:hover {
+.services a:hover {
   color: #042a36;
 }
-.features .feature-list li {
+.services .feature-list li {
   margin-bottom: 10px;
   color: #074f66;
 }
-.features .feature-list li .fa {
+.services .feature-list li .fa {
   margin-right: 5px;
   color: #fff;
 }
-/* ======= Docs Section ======= */
-.docs {
+/* ======= Projects Section ======= */
+.projects {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.docs .title {
+.projects .title {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.docs .docs-inner {
+.projects .projects-inner {
   max-width: 800px;
   background: #fff;
   padding: 30px;
@@ -318,13 +318,13 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.docs .block {
+.projects .block {
   margin-bottom: 60px;
 }
-.docs .code-block {
+.projects .code-block {
   margin: 30px inherit;
 }
-.docs .code-block pre[class*="language-"] {
+.projects .code-block pre[class*="language-"] {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -334,17 +334,57 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* ======= License Section ======= */
-.license {
+/* ======= Blog Section ======= */
+.blog {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.license .title {
+.blog .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.blog .blog-inner {
+  max-width: 800px;
+  background: #fff;
+  padding: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0 auto;
+}
+.blog .block {
+  margin-bottom: 60px;
+}
+.blog .code-block {
+  margin: 30px inherit;
+}
+.blog .code-block pre[class*="language-"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* ======= career Section ======= */
+.career {
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+.career .title {
   margin-top: 0;
   margin-bottom: 60px;
   color: #074f66;
 }
-.license .license-inner {
+.career .career-inner {
   max-width: 800px;
   background: #fff;
   padding: 30px;
@@ -358,11 +398,11 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.license .info {
+.career .info {
   max-width: 760px;
   margin: 0 auto;
 }
-.license .cta-container {
+.career .cta-container {
   max-width: 540px;
   margin: 0 auto;
   margin-top: 60px;
@@ -375,7 +415,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble {
+.career .cta-container .speech-bubble {
   background: #d6f3fc;
   color: #074f66;
   padding: 30px;
@@ -390,7 +430,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble:after {
+.career .cta-container .speech-bubble:after {
   position: absolute;
   left: 50%;
   bottom: -10px;
@@ -403,13 +443,13 @@ pre code {
   border-right: 10px solid transparent;
   border-top: 10px solid #d6f3fc;
 }
-.license .cta-container .icon-holder {
+.career .cta-container .icon-holder {
   margin-bottom: 15px;
 }
-.license .cta-container .icon-holder .fa {
+.career .cta-container .icon-holder .fa {
   font-size: 56px;
 }
-.license .cta-container .intro {
+.career .cta-container .intro {
   margin-bottom: 30px;
 }
 /* ======= Contact Section ======= */
@@ -572,19 +612,19 @@ pre code {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .promo .btns .btn {
+  .home .btns .btn {
     margin-right: 0;
     clear: both;
     display: block;
     margin-bottom: 30px;
   }
-  .promo .title {
+  .home .title {
     font-size: 66px;
   }
-  .promo .meta {
+  .home .meta {
     margin-top: 60px;
   }
-  .promo .meta li {
+  .home .meta li {
     float: none;
     display: block;
     margin-bottom: 5px;
@@ -618,5 +658,9 @@ pre code {
 /* Large devices (large desktops, 1200px and up) */
 
 section#blog {
-  padding-top: 100px;
+  padding-top: 80px 0px;
+}
+
+.font-white {
+  color: #fff;
 }
