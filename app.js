@@ -6,9 +6,17 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
+var blog = require('./routes/blog');
 var users = require('./routes/users');
 
 var app = express();
+
+//use mongoose to connect to mongodb
+var mongoose = require('mongoose');
+var conn = mongoose.connection;
+var globals = require('./config/globals');
+
+conn.open(globals.db);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -20,9 +28,11 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+app.use('/blog', blog);
 app.use('/users', users);
 
 // catch 404 and forward to error handler

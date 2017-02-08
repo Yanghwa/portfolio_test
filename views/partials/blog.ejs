@@ -5,17 +5,22 @@
             <h2 class="title text-center">My Blog</h2>
             <div class="row">
                 <div class="box">
-                    <div class="col-lg-12 text-center">
-                        <img class="img-responsive img-border img-full center-block" src="./images/dreams-preview.png" alt="">
-                        <h3>Post Title
-                            <br>
-                            <small>October 13, 2013</small>
-                        </h3>
-                        <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <a href="#" class="btn btn-default btn-lg">Read More</a>
-                        <hr>
-                    </div>
-                    <div class="col-lg-12 text-center">
+                    <% for (var i = 0; i < blogpost.length; i++) { %>
+                        <div class="col-lg-12 text-center">
+                            <img class="img-responsive img-border img-full center-block" src="./images/dreams-preview.png" alt="">
+                            
+                            <h3>
+                                <%= blogpost[i].title %>
+                                <br>
+                                <small><%= blogpost[i].date %></small>
+                            </h3>
+                            <p><%= blogpost[i].content %></p>
+                            
+                            <a href="#" class="btn btn-default btn-lg">Read More</a>
+                            <hr>
+                        </div>
+                    <% } %>
+                    <!-- <div class="col-lg-12 text-center">
                         <img class="img-responsive img-border img-full center-block" src="./images/escape-preview.png" alt="">
                         <h3>Post Title
                             <br>
@@ -42,7 +47,7 @@
                             <li class="next"><a href="#">Newer &rarr;</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
