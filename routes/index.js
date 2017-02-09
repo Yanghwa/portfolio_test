@@ -18,11 +18,12 @@ router.post('/contact', function (req, res) {
 	let message, smtpTrans;
 
 	smtpTrans = nodemailer.createTransport({
-	  service: "Gmail",
+	  service: 'Gmail',
 	  auth: {
-		  	type: 'OAuth2',
+		  	// type: 'OAuth2',
 	        user: 'kellerj87@gmail.com',
-	        accessToken: "ya29.GlvoA90k1ILgXW1j76M_-WSJHpQNW-PyTr4BWNgWyK3ZZwhPJSs9PVZd32tD_xiZSh_dKT92gkDDJPuO4lMAKEj66pS5961LsB4IaqzJHFpIuMhc7-TOVEhh4Puy"
+	        // accessToken: "ya29.GlvoA90k1ILgXW1j76M_-WSJHpQNW-PyTr4BWNgWyK3ZZwhPJSs9PVZd32tD_xiZSh_dKT92gkDDJPuO4lMAKEj66pS5961LsB4IaqzJHFpIuMhc7-TOVEhh4Puy"
+	        pass: 'wjdfmd87'
 	      }
 	});
 	message = {
