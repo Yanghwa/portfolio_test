@@ -33,10 +33,10 @@ router.post('/contact', function (req, res) {
 	};
 	smtpTrans.sendMail(message, function (error, response) {
 	  if (error) {
-	      res.render('./partials/contact', { title: 'Junghwan - Contact', msg: 'Error occured, message not sent.', err: true, page: 'contact' })
+	      res.render('./partials/contact', { title: 'Junghwan - Contact Failure', msg: 'Error occured, message not sent.', err: true, page: 'contact'});
 	  }
 	  else {
-	      res.render('./partials/contact', { title: 'Junghwan - Contact', msg: 'Message sent! Thank you.', err: false, page: 'contact' })
+	      res.render('./partials/contact', { title: 'Junghwan - Contact Success', msg: 'Message sent! Thank you.', err: false, page: 'contact'});
 	  }
 	});
 });
