@@ -1,21 +1,14 @@
+//Home componenet inside of app component.
+
 import { Component } from '@angular/core';
 
-export class Hero {
-  id: number;
-  name: string;
-}
-
+//setting the selector and template then is can be used as a tag in view
 @Component({
   selector: 'my-home',
   templateUrl: 'app/templates/home.ejs',
 })
+
+//exports this class as HomeComponent
 export class HomeComponent {
   title = 'Home';
 }
-
-
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/

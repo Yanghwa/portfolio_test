@@ -1,5 +1,7 @@
-//array of global variables
+//array of global variables - to connect mongodb
+//using Read Only account.
+//exports db connection
 module.exports = {
-	db: 'mongodb://Yanghwa:wjdfmd8412@ds145639.mlab.com:45639/junghwandb'
+	db: 'mongodb://YanghwaRead:nwjdfmd@ds145639.mlab.com:45639/junghwandb'
 	// db: 'mongodb://localhost:27017'
 };

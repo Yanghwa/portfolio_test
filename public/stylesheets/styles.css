@@ -271,7 +271,7 @@ pre code {
 }
 /* ======= Services Section ======= */
 .services {
-  padding: 80px 0;
+  padding: 150px 0;
   background: #17baef;
   color: #fff;
 }
@@ -296,7 +296,7 @@ pre code {
 }
 /* ======= Projects Section ======= */
 .projects {
-  padding: 80px 0;
+  padding: 150px 0;
   background: #f5f5f5;
 }
 .projects .title {
@@ -336,7 +336,7 @@ pre code {
 }
 /* ======= Blog Section ======= */
 .blog {
-  padding: 80px 0;
+  padding: 150px 0;
   background: #f5f5f5;
 }
 .blog .title {
@@ -376,7 +376,7 @@ pre code {
 }
 /* ======= career Section ======= */
 .career {
-  padding: 80px 0;
+  padding: 150px 0;
   background: #f5f5f5;
 }
 .career .title {
@@ -454,53 +454,17 @@ pre code {
 }
 /* ======= Contact Section ======= */
 .contact {
-  padding: 80px 0;
-  background: #17baef;
-  color: #fff;
-}
-.contact .contact-inner {
-  max-width: 760px;
-  margin: 0 auto;
+  padding: 150px 0;
+  background: #f5f5f5;
 }
 .contact .title {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.contact .intro {
-  margin-bottom: 60px;
-}
-.contact a {
-  color: #074f66;
-}
-.contact a:hover {
-  color: #042a36;
-}
-.contact .author-message {
-  position: relative;
-  margin-bottom: 60px;
-}
-.contact .author-message .profile {
-  position: absolute;
-  left: 30px;
-  top: 15px;
-  width: 100px;
-  height: 100px;
-}
-.contact .author-message .profile img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.contact .author-message .speech-bubble {
-  margin-left: 155px;
-  background: #10b2e7;
-  color: #074f66;
+.contact .contact-inner {
+  max-width: 800px;
+  background: #fff;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -510,37 +474,23 @@ pre code {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  position: relative;
+  margin: 0 auto;
 }
-.contact .author-message .speech-bubble .sub-title {
-  color: #074f66;
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 30px;
+.contact .block {
+  margin-bottom: 60px;
 }
-.contact .author-message .speech-bubble a {
-  color: #fff;
+.contact .code-block {
+  margin: 30px inherit;
 }
-.contact .author-message .speech-bubble:after {
-  position: absolute;
-  left: -10px;
-  top: 60px;
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #10b2e7;
-}
-.contact .author-message .speech-bubble .source {
-  margin-top: 30px;
-}
-.contact .author-message .speech-bubble .source a {
-  color: #074f66;
-}
-.contact .author-message .speech-bubble .source .title {
-  color: #0c86ae;
+.contact .code-block pre[class*="language-"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .contact .info .sub-title {
   color: #0e98c5;
@@ -661,19 +611,19 @@ section#blog {
   padding-top: 80px 0px;
 }
 
-.font-white {
-  color: #fff;
-}
-
 .loading_screen {
   font-size: 30px;
   width:480px;
   height:500px;
   margin:0 auto;
-  padding-top:10%;
+  padding-top:150px;
   padding-bottom:5%;
   background-image:url('../images/loading.gif');
   background-size:contain;
   background-repeat:no-repeat;
   background-position:center
+}
+
+.advantage {
+  height: 150px;
 }

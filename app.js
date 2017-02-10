@@ -11,7 +11,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-//use mongoose to connect to mongodb
+// use mongoose to connect to mongodb
 var mongoose = require('mongoose');
 var conn = mongoose.connection;
 var globals = require('./config/globals');

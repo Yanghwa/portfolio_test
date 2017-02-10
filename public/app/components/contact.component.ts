@@ -1,3 +1,4 @@
+//Contact Component, but it is not used.
 import { Component } from '@angular/core';
 
 @Component({

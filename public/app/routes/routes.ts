@@ -1,3 +1,5 @@
+//Router for components, but it's not used
+
 import { provideRouter, RouterConfig }  from '@angular/router';
 
 import { HomeComponent }  from '../components/home.component';

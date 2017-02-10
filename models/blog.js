@@ -1,5 +1,8 @@
+//For the future, setting the blog contents' types
+
 let mongoose = require('mongoose');
 
+//make blogSchema and its types, then exports to mongoose model
 var blogSchema = new mongoose.Schema({
 	title: {
 		type: String,
@@ -16,4 +19,5 @@ var blogSchema = new mongoose.Schema({
 	}
 }, { collection : 'blog' });
 
+//exports this model to mongooes
 module.exports = mongoose.model('Blog', blogSchema);

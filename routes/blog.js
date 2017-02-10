@@ -1,8 +1,12 @@
+//express router for blog
+
 let express = require('express');
 let router = express.Router();
 
+//setting model- schema and set collection as blog
 let Blog = require('../models/blog');
 
+//render to blog view if there is no error
 router.get('/', function(req, res, next) {
 	Blog.find(function(err, blog) {
 		if(err) {
@@ -17,4 +21,5 @@ router.get('/', function(req, res, next) {
 	
 });
 
+//exports this blog router to module
 module.exports = router;
