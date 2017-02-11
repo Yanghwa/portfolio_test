@@ -1,0 +1,22 @@
+<!-- 
+//File name: thankyou.ejs
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: thankyou page view after sending mail-->
+<% include ./header_ex.ejs %>
+<section id="contact" class="contact section has-pattern">
+    <div class="container">
+        <div class="contact-inner">
+            <h2 class="title  text-center"><%= title %></h2>
+            <p class="intro  text-center"><%= msg %></p>
+ 		</div><!--//contact-inner-->
+    </div><!--//container-->
+</section>
+<script>
+$(document).ready(function () {
+    window.setTimeout(function () {
+        location.href = "/";
+    }, 5000);
+});
+</script>
+<% include ./footer.ejs %>

@@ -48,10 +48,10 @@ router.post('/contact', function (req, res) {
 	//sendMail and detect error
 	smtpTrans.sendMail(message, function (error, response) {
 	  if (error) {
-	      res.render('./partials/contact', { title: 'Junghwan - Contact Failure', msg: 'Error occured, message not sent.', err: true, page: 'contact'});
+	      res.render('./partials/thankyou', { title: 'Contact Failure', msg: 'Error occured, message not sent.', err: true});
 	  }
 	  else {
-	      res.render('./partials/contact', { title: 'Junghwan - Contact Success', msg: 'Message sent! Thank you.', err: false, page: 'contact'});
+	      res.render('./partials/thankyou', { title: 'Contact Success', msg: 'Message sent! Thank you.', err: false});
 	  }
 	});
 });
