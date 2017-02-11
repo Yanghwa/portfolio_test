@@ -1,4 +1,7 @@
-//For the future, setting the blog contents' types
+//File name: blog.js
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: For the future, setting the blog contents' types
 
 let mongoose = require('mongoose');
 

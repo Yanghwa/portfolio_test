@@ -1,3 +1,7 @@
+//File name: app.js
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: after setting server, set all node modules, used routers and view 
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');

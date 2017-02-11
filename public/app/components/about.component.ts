@@ -1,4 +1,7 @@
-//About Component inside of app component, 
+//File name: about.component.ts
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: About Component inside of app component, 
 
 import { Component } from '@angular/core';
 

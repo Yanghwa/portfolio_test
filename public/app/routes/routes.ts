@@ -1,4 +1,7 @@
-//Router for components, but it's not used
+//File name: routes.ts
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: Router for components, but it's not used
 
 import { provideRouter, RouterConfig }  from '@angular/router';
 

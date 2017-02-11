@@ -1,4 +1,7 @@
-//App module to use each component
+//File name: app.module.ts
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: App module to use each component
 //this angular uses only one module - app
 
 import { NgModule }      from '@angular/core';
@@ -23,10 +26,3 @@ import { AboutComponent }  from './components/about.component';
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
-
-
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/

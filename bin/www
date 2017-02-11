@@ -1,4 +1,8 @@
-#!/usr/bin/env node
+//File name: www
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: create HTTP server and sett port
+// #!/usr/bin/env node
 
 /**
  * Module dependencies.

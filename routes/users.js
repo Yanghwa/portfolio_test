@@ -1,3 +1,8 @@
+//File name: users.js
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: default setting for users, not used yet
+
 var express = require('express');
 var router = express.Router();
 

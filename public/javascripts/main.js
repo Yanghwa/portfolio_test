@@ -1,3 +1,7 @@
+//File name: main.js
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: scroll down motion when click about menu from main page
 jQuery(document).ready(function($) {
 
     /* ======= Scrollspy ======= */

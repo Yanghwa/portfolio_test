@@ -1,4 +1,7 @@
-//App component used for app module. it loads home and about component
+//File name: app.component.ts
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: App component used for app module. it loads home and about component
 
 import { Component } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';

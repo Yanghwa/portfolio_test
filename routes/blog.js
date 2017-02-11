@@ -1,4 +1,7 @@
-//express router for blog
+//File name: blog.js
+//Author's name: Junghwan Yang
+//web site name: www.junghwanyang.me
+//file description: express router for blog
 
 let express = require('express');
 let router = express.Router();
