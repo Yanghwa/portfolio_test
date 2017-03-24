@@ -23,38 +23,7 @@ router.get('/services', function(req, res, next) {
 });
 
 //router for contact page and setting nodemailer to send mail using contact form
-router.post('/contact', function (req, res) {
-	let message, smtpTrans;
 
-	//set the service to send the mail using this
-	smtpTrans = nodemailer.createTransport({
-	  service: 'Gmail',
-	  auth: {
-		  	// type: 'OAuth2',
-	        user: 'kellerj87@gmail.com',
-	        // accessToken: "ya29.GlvoA90k1ILgXW1j76M_-WSJHpQNW-PyTr4BWNgWyK3ZZwhPJSs9PVZd32tD_xiZSh_dKT92gkDDJPuO4lMAKEj66pS5961LsB4IaqzJHFpIuMhc7-TOVEhh4Puy"
-	        pass: 'wjdfmd8412'
-	      }
-	});
-
-	//set message content
-	message = {
-	  from: req.body.email,
-	  to: 'kellerj87@gmail.com',
-	  subject: 'Contact to Junghwan from ' + req.body.name + req.body.email,
-	  text: req.body.message + '- Cellphone: ' + req.body.phonenumber
-	};
-
-	//sendMail and detect error
-	smtpTrans.sendMail(message, function (error, response) {
-	  if (error) {
-	      res.render('./partials/thankyou', { title: 'Contact Failure', msg: 'Error occured, message not sent.', err: true});
-	  }
-	  else {
-	      res.render('./partials/thankyou', { title: 'Contact Success', msg: 'Message sent! Thank you.', err: false});
-	  }
-	});
-});
 
 //router for contact page
 router.get('/contact', function(req, res, next) {
